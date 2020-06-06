@@ -1,12 +1,16 @@
 import React from 'react'
 import Card from '../UI/Card'
 import Logo from '../Logo'
+import Navbar from '../Navbar'
 
 function Hero() {
     return (
         <div>
            <Card>
+           <div style={{padding:'40px 0'}}>
            <Logo/>
+           </div>
+           <Navbar/>
            </Card>
         </div>
     )
